@@ -1,299 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alpha</title>
+    <link rel="stylesheet" href="/assets/shorthand.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli:200,300,400,500,600,700,800,900&display=swap" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+</head>
 
-    <title>Network Management Toolkit</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <link rel='icon' href='favicon.ico' type='image/x-icon'/ >
-    <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,700,800" rel="stylesheet">
-
-
-    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
-    <link rel="stylesheet" href="css/animate.css">
-
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-
-    <link rel="stylesheet" href="css/aos.css">
-
-    <link rel="stylesheet" href="css/ionicons.min.css">
-
-    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-    <link rel="stylesheet" href="css/jquery.timepicker.css">
-
-
-    <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/icomoon.css">
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-
-    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
-      <div class="container">
-        <a class="navbar-brand" href="index.html">Network Management Toolkit</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="oi oi-menu"></span> Menu
-        </button>
-
-        <div class="collapse navbar-collapse" id="ftco-nav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-
-
-
-
-          </ul>
+<body class="bg-black muli">
+    <nav class="w-100pc flex flex-column md-flex-row md-px-10 py-5 bg-black">
+        <div class="flex justify-between">
+            <a href="#" class="flex items-center p-2 mr-4 no-underline">
+                <img class="max-h-l2 w-auto" src="assets/images/logo.png" />
+            </a>
+            <a data-toggle="toggle-nav" data-target="#nav-items" href="#"
+                class="flex items-center ml-auto md-hidden indigo-lighter opacity-50 hover-opacity-100 ease-300 p-1 m-3">
+                <i data-feather="menu"></i>
+            </a>
         </div>
-      </div>
+        <div id="nav-items" class="hidden flex sm-w-100pc flex-column md-flex md-flex-row md-justify-end items-center">
+            <a href="#home" class="fs-s1 mx-3 py-3 indigo-lightest no-underline hover-underline">Home</a>
+            <a href="#features" class="fs-s1 mx-3 py-3 indigo-lightest no-underline hover-underline">Features</a>
+            <a href="#pricing" class="button bg-indigo white fw-600 no-underline mx-5">Donate</a>
+        </div>
     </nav>
-    <!-- END nav -->
 
-    <section class="home-slider ftco-degree-bg">
-      <div class="slider-item">
-        <div class="overlay"></div>
-        <div class="container">
-          <div class="row slider-text align-items-center justify-content-center">
-            <div class="col-md-10 ftco-animate text-center">
-              <h1 class="mb-4">I love
-                <strong class="typewrite" data-period="4000" data-type='[ "Networking.", "Sniffing.", "My Network.", "Security." ]'>
-                  <span class="wrap"></span>
-                </strong>
-              </h1>
-              <p>Roses are red, Violets are blue, You search for this software, Download It too.</p>
-              <a class="btn btn-primary py-3 px-5" href="https://filebin.net/3x4pkhlnfybux7cn/NMTinstaller.exe?t=avprpjnv">Download Now!</a>
-              <a class="btn btn-primary py-3 px-5" href="https://www.paypal.com/biz/fund?id=9SLZPM7L8ASN4">Donate</a>
-
+    <!-- hero section -->
+    <section id="home" class="min-h-100vh flex justify-start items-center">
+        <div class="mx-5 md-mx-l5">
+            <div class="inline-block br-round bg-indigo-30 indigo-lightest p-2 fs-s2 mb-5">
+                <div class="inline-block bg-indigo indigo-lightest br-round px-3 py-1 mr-3 fs-s3">Coming soon</div>
+                VPN connection and computer statistics.
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- END slider -->
+            <div>
+                <h1 class="white fs-l3 lh-2 md-fs-xl1 md-lh-1 fw-900 ">Alpha <br />Manager</h1>
 
-    <section class="ftco-section-featured ftco-animate">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="carousel owl-carousel">
-              <video width=100% height=75% controls>
-  <source src="images/adw.mp4" type="video/mp4">
-
-  Your browser does not support the video tag.
-</video>
-
-
-
-
-
-
+                <div class="br-8 mt-10 inline-flex">
+                    <input type="text"
+                        class="input-lg half bw-0 fw-200 bg-indigo-lightest-10 white ph-indigo-lightest focus-white opacity-80 fs-s3 py-5 min-w-25vw br-r-0"
+                        placeholder="Email Address">
+                        <a href="./Alpha.rar">
+                    <button
+                        class="button-lg bg-indigo indigo-lightest focus-white fw-300 fs-s3 mr-0 br-l-0">Download</button></a>
+                </div>
+                <div class="white opacity-20 fs-s3 mt-3">No credit card required</span>
             </div>
-          </div>
         </div>
-      </div>
     </section>
 
-
-    <section class="ftco-section ftco-degree-bg">
-
-      <div class="container">
-        <div class="row justify-content-center mb-5 pb-5">
-          <div class="col-md-7 text-center heading-section ftco-animate">
-            <span class="subheading">Our Services</span>
-
-            <h2>Network Management Toolkit offers a fully featured network management tools</h2>
-          </div>
+    <!-- features -->
+    <section id="features" class="p-10 md-p-l5">
+        <div class="flex flex-column md-flex-row mx-auto">
+            <div class="w-100pc md-w-40pc">
+                <div class="br-8 p-5 m-5">
+                    <div class="flex justify-center items-center bg-indigo-lightest-10 white w-l5 h-l5 br-round mb-5"><i
+                            data-feather="inbox" class="w-l5"></i></div>
+                    <h4 class="white fw-600 fs-m3 mb-5">Storage</h4>
+                    <div class="indigo-lightest fw-600 fs-m1 lh-3 opacity-50">Clear unused temporal files on your computer. Make your computer faster!</div>
+                   
+                </div>
+            </div>
+            <div class="w-100pc md-w-40pc">
+                <div class="br-8 p-5 m-5">
+                    <div class="flex justify-center items-center bg-indigo-lightest-10 white w-l5 h-l5 br-round mb-5"><i
+                            data-feather="cpu" class="w-l5"></i></div>
+                    <h4 class="white fw-600 fs-m3 mb-5">Security</h4>
+                    <div class="indigo-lightest fw-600 fs-m1 opacity-50">Encript any wanted files using advanced AES encription algorithm. Secure your public IP using our VPN!(Coming soon)</div>
+                
+                </div>
+            </div>
+            <div class="w-100pc md-w-40pc">
+                <div class="br-8 p-5 m-5">
+                    <div class="flex justify-center items-center bg-indigo-lightest-10 white w-l5 h-l5 br-round mb-5"><i
+                            data-feather="database" class="w-l5"></i></div>
+                    <h4 class="white fw-600 fs-m3 mb-5">Data Leaks</h4>
+                    <div class="indigo-lightest fw-600 fs-m1 opacity-50">Check all your account data breaches easily. Search with email, username, domain and IP.</div>
+                 
+                </div>
+            </div>
         </div>
-        <div class="row">
-          <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
-            <div class="media block-6 services d-block text-center">
-              <div class="d-flex justify-content-center"><div class="icon color-1 d-flex justify-content-center mb-3"><span class="align-self-center icon-layers"></span></div></div>
-              <div class="media-body p-2">
-                <h3 class="heading">Scanner</h3>
-                <p>Scan your network and discover who is in your network. Scan all open ports on a target.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
-            <div class="media block-6 services d-block text-center">
-              <div class="d-flex justify-content-center"><div class="icon color-2 d-flex justify-content-center mb-3"><span class="align-self-center icon-gears"></span></div></div>
-              <div class="media-body p-2">
-                <h3 class="heading">Deauth</h3>
-                <p>Send udp packages to a target to deauth it from from your network.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
-            <div class="media block-6 services d-block text-center">
-              <div class="d-flex justify-content-center"><div class="icon color-3 d-flex justify-content-center mb-3"><span class="align-self-center icon-paper-plane"></span></div></div>
-              <div class="media-body p-2">
-                <h3 class="heading">Advanced Package Sniffer</h3>
-                <p>Capture all your network traffic and manage all send and received data.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
-            <div class="media block-6 services d-block text-center">
-              <div class="d-flex justify-content-center"><div class="icon color-4 d-flex justify-content-center mb-3"><span class="align-self-center icon-live_help"></span></div></div>
-              <div class="media-body p-2">
-                <h3 class="heading">Admin Panel</h3>
-                <p>Get instant access to your network admin panel.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
     </section>
 
+    <!-- slider -->
+    
 
-    <section class="ftco-section-parallax ftco-degree-bg">
-      <div class="parallax-img d-flex align-items-center">
-        <div class="container">
-          <div class="row d-flex justify-content-center">
-            <div class="col-md-10 text-center heading-section heading-section-white ftco-animate">
-              <h2 class="h1 font-weight-bold">Improve your network security</h2>
-
-            </div>
-          </div>
+    <!-- big text -->
+    <section class="p-10 md-py-10">
+        <div class="w-100pc md-w-70pc mx-auto py-10">
+            <h2 class="white fs-l2 md-fs-xl1 fw-900 lh-2">
+                Manage your computer users, space and security <span class="border-b bc-indigo bw-4"> easily.</span></h2>
         </div>
-      </div>
+    </section>
+    <!-- pricing -->
+    <section id="pricing">
+        <div class="p-10 flex flex-wrap">
+            <div class="w-100pc md-w-50pc">
+                <div class="p-5">
+                    <h4 class="white fw-800 fs-l3 mb-5">Donate</h4>
+                    <div class="indigo-lightest fw-600 fs-m1 opacity-50">Support the developer of this software buying him a coffee.</div>
+                    
+                </div>
+            </div>
+          
+            <div class="w-100pc md-w-25pc">
+                <div class="m-3 p-5 br-8 bg-indigo-lightest-10 overflow-hidden">
+                    <div class="p-3">
+                        <h3 class="indigo">Buy me a coffe</h3>
+                        <div class="white flex items-center">$<span class="fs-l5 lh-1">0+</span></div>
+                    </div>
+                    <div class="p-3 indigo-lightest fw-400 fs-s1 lh-5">
+                        <div>
+                            <i class="h-3 indigo" stroke-width="4" data-feather="check"></i>
+                            <span class="opacity-50"> Thanks to your donation I can continue improving this software and making a better application./span></div>
+                      
+                           
+                    </div>
+                    <div class="p-3">
+                        <a href="https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=9SLZPM7L8ASN4"><button class="button full bg-indigo white  hover-opacity-100 hover-scale-up-1 ease-300">Donate</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
     </section>
 
 
-    <section class="ftco-section testimony-section ftco-degree-bg">
-      <div class="container">
-        <div class="row justify-content-center mb-5 pb-5">
-          <div class="col-md-7 text-center heading-section ftco-animate">
-            <span class="subheading">Customer Says</span>
-            <h2>Our satisfied customer says</h2>
-          </div>
-        </div>
-        <div class="row ftco-animate">
-          <div class="col-md-12">
-            <div class="carousel-testimony owl-carousel ftco-owl">
-              <div class="item text-center">
-                <div class="testimony-wrap p-4 pb-5">
-                  <div class="user-img mb-4" style="background-image: url(images/person_1.jpg)">
-                    <span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
-                    </span>
-                  </div>
-                  <div class="text">
-                    <p class="mb-5">Thanks to this software, my internet works faster!</p>
-                    <p class="name">Dennis</p>
-
-                  </div>
+    <footer class="p-5 md-p-l5 bg-indigo-lightest-10">
+        <div class="flex flex-wrap">
+            <div class="md-w-25pc mb-10">
+                <div class="white opacity-70 fs-s2 mt-4 md-pr-10">
+                    <p>Copyright TitoHacks 2021</p>
                 </div>
-              </div>
-              <div class="item text-center">
-                <div class="testimony-wrap p-4 pb-5">
-                  <div class="user-img mb-4" style="background-image: url(images/person_2.jpg)">
-                    <span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
-                    </span>
-                  </div>
-                  <div class="text">
-                    <p class="mb-5">I give 5 stars. Thanks to nmt I could deauth my neighbors.</p>
-                    <p class="name">Mark</p>
-
-                  </div>
-                </div>
-              </div>
-              <div class="item text-center">
-                <div class="testimony-wrap p-4 pb-5">
-                  <div class="user-img mb-4" style="background-image: url(images/person_3.jpg)">
-                    <span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
-                    </span>
-                  </div>
-                  <div class="text">
-                    <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Pablo</p>
-
-                  </div>
-                </div>
-              </div>
-              <div class="item text-center">
-                <div class="testimony-wrap p-4 pb-5">
-                  <div class="user-img mb-4" style="background-image: url(images/person_4.jpg)">
-                    <span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
-                    </span>
-                  </div>
-                  <div class="text">
-                    <p class="mb-5">As a developer, I can say that this software is impresive!</p>
-                    <p class="name">James</p>
-                    <span class="position">Developer</span>
-                  </div>
-                </div>
-              </div>
-              <div class="item text-center">
-                <div class="testimony-wrap p-4 pb-5">
-                  <div class="user-img mb-4" style="background-image: url(images/2.png)">
-                    <span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
-                    </span>
-                  </div>
-                  <div class="text">
-                    <p class="mb-5">Thank you nmt! I could prevent a hacking attack thanks to the advance package sniffer tool.</p>
-                    <p class="name">Marcos</p>
-
-                  </div>
-                </div>
-              </div>
             </div>
-          </div>
         </div>
-      </div>
-    </section>
-
-
-
-
-
-    <footer class="ftco-footer ftco-bg-dark ">
-      <div class="container">
-
-        <div class="row">
-          <div class="col-md-12 text-center">
-
-            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved </a>
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-          </div>
-        </div>
-      </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
 
-
-
-  <!-- loader -->
-  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
-
-
-  <script src="js/jquery.min.js"></script>
-  <script src="js/jquery-migrate-3.0.1.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.easing.1.3.js"></script>
-  <script src="js/jquery.waypoints.min.js"></script>
-  <script src="js/jquery.stellar.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/aos.js"></script>
-  <script src="js/jquery.animateNumber.min.js"></script>
-  <script src="js/bootstrap-datepicker.js"></script>
-  <script src="js/jquery.timepicker.min.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-  <script src="js/google-map.js"></script>
-  <script src="js/main.js"></script>
-
-
-
-  </body>
 </html>
