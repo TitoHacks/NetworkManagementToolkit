@@ -27,7 +27,9 @@
         <div id="nav-items" class="hidden flex sm-w-100pc flex-column md-flex md-flex-row md-justify-end items-center">
             <a href="#home" class="fs-s1 mx-3 py-3 indigo-lightest no-underline hover-underline">Home</a>
             <a href="#features" class="fs-s1 mx-3 py-3 indigo-lightest no-underline hover-underline">Features</a>
+            <a href="#reg" class="button bg-indigo white fw-600 no-underline mx-5">Register</a>
             <a href="#pricing" class="button bg-indigo white fw-600 no-underline mx-5">Donate</a>
+            
         </div>
     </nav>
 
@@ -87,6 +89,8 @@
         </div>
     </section>
 
+
+
     <!-- slider -->
     
 
@@ -97,6 +101,44 @@
                 Manage your computer users, space and security <span class="border-b bc-indigo bw-4"> easily.</span></h2>
         </div>
     </section>
+
+<!--register -->
+    <section class="p-10 md-py-10">
+
+        <div class="w-100pc md-w-25pc">
+            <div class="m-3 p-5 br-8 bg-white overflow-hidden">
+                <form action="">
+                <div class="p-3">
+                    <h3 class="indigo">Register</h3>
+                    <div class="m-1 p-1 br-8 bg-white overflow-hidden">
+
+                    </div>
+
+                    <input type="text"
+                    class="input-md half bw-0 fw-100 bg-black white ph-indigo-lightest focus-indigo opacity-80 fs-s3 py-5 min-w-25vw br-r-0"
+                    placeholder="Email Address" name="email"
+                    autocomplete="off">
+                    <div class="m-1 p-1 br-8 bg-white overflow-hidden">
+
+                    </div>
+                    <input type="text"
+                    class="input-md half bw-0 fw-100 bg-black white ph-indigo-lightest focus-indigo opacity-80 fs-s3 py-5 min-w-25vw br-r-0"
+                    placeholder="Password" name="pass"autocomplete="off">
+                     
+                </div>
+                
+                <div class="p-3">
+                    <input type="submit" class="button full bg-indigo white  hover-opacity-100 hover-scale-up-1 ease-300" value="Register">
+                </form>
+                </div>
+            </div>
+        </div>
+      
+        
+
+    </section>
+
+
     <!-- pricing -->
     <section id="pricing">
         <div class="p-10 flex flex-wrap">
@@ -148,3 +190,18 @@
 </body>
 
 </html>
+
+<?php 
+    extract($_REQUEST);
+    $file=fopen("accounts.txt", "a");
+    fwrite($file, $email);
+    fwrite($file, $pass);
+    fclose($file);
+
+
+
+
+
+
+
+?>
