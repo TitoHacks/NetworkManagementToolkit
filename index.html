@@ -2,159 +2,390 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alpha</title>
-    <link rel="icon" type="image/png" href="./assets/images/logo.png"/>
-    <link rel="stylesheet" href="/assets/shorthand.min.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli:200,300,400,500,600,700,800,900&display=swap" />
-    <link rel="stylesheet" type="text/css"
-        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Jon Elorza</title>
+  <meta content="" name="description">
+
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
 </head>
 
-<body class="bg-black muli">
-    <nav class="w-100pc flex flex-column md-flex-row md-px-10 py-5 bg-black">
-        <div class="flex justify-between">
-            <a href="#" class="flex items-center p-2 mr-4 no-underline">
-                <img class="max-h-l2 w-auto" src="assets/images/logo.png" />
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/logo.png" alt="">
+        <span>Jon Elorza</span>
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Inicio</a></li>
+          <li><a class="nav-link scrollto" href="#about">Sobre</a></li>
+          <li class="dropdown"><a href="#"><span>Proyectos</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#services">Alpha</a></li>
+              </li>
+              <li><a href="#services">Omega</a></li>
+              <li><a href="#services">Dashify</a></li>
+              <li><a href="#services">Locky</a></li>
+            </ul>
+          </li>
+          <li><a class="getstarted scrollto" href="#about">Empezar</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero d-flex align-items-center">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column justify-content-center">
+          <h1 data-aos="fade-up">Soluciones Software al alcance de todos</h1>
+          <h2 data-aos="fade-up" data-aos-delay="400">Todo por el software gratuito</h2>
+          <div data-aos="fade-up" data-aos-delay="600">
+            <div class="text-center text-lg-start">
+              <a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+                <span>Empezar</span>
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
+          <img src="assets/img/hero-img.png" class="img-fluid" alt="">
+        </div>
+      </div>
+    </div>
+
+  </section><!-- End Hero -->
+
+  <main id="main">
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+
+      <div class="container" data-aos="fade-up">
+        <div class="row gx-0">
+
+          <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+            <div class="content">
+              <h3>CONOCEME</h3>
+              <h2>Soy un desarrollador independiente con conocimientos de C#, HTML y CSS.</h2>
+              <p>
+                Actualmente estoy desarrollando Locky, un gestor de contraseñas con cifrado de grado militar. Ya esta la descarga de la version alpha disponible!
+              </p>
+              <div class="text-center text-lg-start">
+                <a href="#" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
+                  <span>Descargar</span>
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+            <img src="assets/img/about.jpg" class="img-fluid" alt="">
+          </div>
+
+        </div>
+      </div>
+
+    </section><!-- End About Section -->
+
+    <!-- ======= Counts Section ======= -->
+    <section id="counts" class="counts">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row gy-4">
+
+         >
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="bi bi-journal-richtext" style="color: #ee6c20;"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="4" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Proyectos</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Counts Section -->
+
+
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>PRODUCTOS</h2>
+          <p>PRODUCTOS DISPONIBLES PARA SU DESCARGA</p>
+        </header>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-box blue">
+              <i class="ri-discuss-line icon"></i>
+              <h3>ALPHA</h3>
+              <p>Gestiona tus cuentas de usuario de una manera sencilla. Elimina archivos basura de tu ordenador y enterate de las filtraciones de tu correo electronico!</p>
+              <a href="./Alpha.zip" class="read-more"><span>Descargar</span> <i class="bi bi-arrow-down"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-box orange">
+              <i class="ri-discuss-line icon"></i>
+              <h3>OMEGA</h3>
+              <p>Apaga tu ordenador de forma remota. Habilita filtros de busqueda y navegacion segura en tu ordenador mediante nuestra aplicacion. Bloquea el ordenador utilizando tu huella dactilar!</p>
+              <a href="./Omega.zip" class="read-more"><span>Descargar</span> <i class="bi bi-arrow-down"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-box blue">
+              <i class="ri-discuss-line icon"></i>
+              <h3>DASHIFY</h3>
+              <p>Gestiona tus ventas y tus ingresos de forma sencilla. Obten un resumen anual en formato Excel que te solucionara la vida.</p>
+              <a href="./Dashify.rar" class="read-more"><span>Descargar</span> <i class="bi bi-arrow-down"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+           
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-box green">
+              <i class="ri-discuss-line icon"></i>
+              <h3>Locky</h3>
+              <p>Gestiona todas tus cuentas online con una unica contraseña! Cifra archivos para que nadie tenga acceso a ellos.</p>
+              <a href="./locky.rar" class="read-more"><span>Descargar</span> <i class="bi bi-arrow-down"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+           
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- End Services Section -->
+
+
+    <!-- ======= F.A.Q Section ======= -->
+    <section id="faq" class="faq">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>F.A.Q</h2>
+          <p>Frequently Asked Questions</p>
+        </header>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <!-- F.A.Q List 1-->
+            <div class="accordion accordion-flush" id="faqlist1">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
+                    ¿Como puedo ponerme en contacto contigo?
+                  </button>
+                </h2>
+                <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
+                  <div class="accordion-body">
+                    Escribeme un correo al siguiente email: jon34tre@gmail.com
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
+                    Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?
+                  </button>
+                </h2>
+                <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
+                  <div class="accordion-body">
+                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
+                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi?
+                  </button>
+                </h2>
+                <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
+                  <div class="accordion-body">
+                    Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+
+            <!-- F.A.Q List 2-->
+            <div class="accordion accordion-flush" id="faqlist2">
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-1">
+                    Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?
+                  </button>
+                </h2>
+                <div id="faq2-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
+                  <div class="accordion-body">
+                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-2">
+                    Tempus quam pellentesque nec nam aliquam sem et tortor consequat?
+                  </button>
+                </h2>
+                <div id="faq2-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
+                  <div class="accordion-body">
+                    Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-3">
+                    Varius vel pharetra vel turpis nunc eget lorem dolor?
+                  </button>
+                </h2>
+                <div id="faq2-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
+                  <div class="accordion-body">
+                    Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Nibh tellus molestie nunc non blandit massa enim nec.
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- End F.A.Q Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+  
+    <!-- ======= Testimonials Section ======= -->
+   
+
+
+
+
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-5 col-md-12 footer-info">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <img src="assets/img/logo.png" alt="">
+              <span>Jon Elorza</span>
             </a>
-            <a data-toggle="toggle-nav" data-target="#nav-items" href="#"
-                class="flex items-center ml-auto md-hidden indigo-lighter opacity-50 hover-opacity-100 ease-300 p-1 m-3">
-                <i data-feather="menu"></i>
-            </a>
+            <p>Todo por el software libre!</p>
+            <div class="social-links mt-3">
+              <a href="https://www.linkedin.com/in/jonelorza" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Links</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Inicio</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#about">Sobre</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#services">Proyectos</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#faq">F.A.Q</a></li>
+            </ul>
+          </div>
+
+   
+
+     
+
         </div>
-        <div id="nav-items" class="hidden flex sm-w-100pc flex-column md-flex md-flex-row md-justify-end items-center">
-            <a href="#home" class="fs-s1 mx-3 py-3 indigo-lightest no-underline hover-underline">Home</a>
-            <a href="#features" class="fs-s1 mx-3 py-3 indigo-lightest no-underline hover-underline">Features</a>
-             <a href="omega.html" class="fs-s1 mx-3 py-3 indigo-lightest no-underline hover-underline">Omega</a>
-             <a href="./PiPass/index.html" class="fs-s1 mx-3 py-3 indigo-lightest no-underline hover-underline">PiPass Test</a>
-            <a href="#pricing" class="button bg-indigo white fw-600 no-underline mx-5">Donate</a>
-            
-        </div>
-    </nav>
+      </div>
+    </div>
 
-    <!-- hero section -->
-    <section id="home" class="min-h-100vh flex justify-start items-center">
-        <div class="mx-5 md-mx-l5">
-            <div class="inline-block br-round bg-indigo-30 indigo-lightest p-2 fs-s2 mb-5">
-                <div class="inline-block bg-indigo indigo-lightest br-round px-3 py-1 mr-3 fs-s3">Coming soon</div>
-                VPN connection and computer statistics.
-            </div>
-            <div>
-                <h1 class="white fs-l3 lh-2 md-fs-xl1 md-lh-1 fw-900 ">Alpha <br />Manager</h1>
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>FlexStart</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/flexstart-bootstrap-startup-template/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
 
-                <div class="br-8 mt-10 inline-flex">
-                    <input type="text"
-                        class="input-lg half bw-0 fw-200 bg-indigo-lightest-10 white ph-indigo-lightest focus-white opacity-80 fs-s3 py-5 min-w-25vw br-r-0"
-                        placeholder="Email Address">
-                        <a href="./Alpha.rar">
-                    <button
-                        class="button-lg bg-indigo indigo-lightest focus-white fw-300 fs-s3 mr-0 br-l-0">Download</button></a>
-                </div>
-                <div class="white opacity-20 fs-s3 mt-3">No credit card required</span>
-            </div>
-        </div>
-    </section>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-    <!-- features -->
-    <section id="features" class="p-10 md-p-l5">
-        <div class="flex flex-column md-flex-row mx-auto">
-            <div class="w-100pc md-w-40pc">
-                <div class="br-8 p-5 m-5">
-                    <div class="flex justify-center items-center bg-indigo-lightest-10 white w-l5 h-l5 br-round mb-5"><i
-                            data-feather="inbox" class="w-l5"></i></div>
-                    <h4 class="white fw-600 fs-m3 mb-5">Storage</h4>
-                    <div class="indigo-lightest fw-600 fs-m1 lh-3 opacity-50">Clear unused temporal files on your computer. Make your computer faster!</div>
-                   
-                </div>
-            </div>
-            <div class="w-100pc md-w-40pc">
-                <div class="br-8 p-5 m-5">
-                    <div class="flex justify-center items-center bg-indigo-lightest-10 white w-l5 h-l5 br-round mb-5"><i
-                            data-feather="cpu" class="w-l5"></i></div>
-                    <h4 class="white fw-600 fs-m3 mb-5">Security</h4>
-                    <div class="indigo-lightest fw-600 fs-m1 opacity-50">Encrypt any wanted files using advanced AES encryption algorithm. Secure your public IP using our VPN!(Coming soon)</div>
-                
-                </div>
-            </div>
-            <div class="w-100pc md-w-40pc">
-                <div class="br-8 p-5 m-5">
-                    <div class="flex justify-center items-center bg-indigo-lightest-10 white w-l5 h-l5 br-round mb-5"><i
-                            data-feather="database" class="w-l5"></i></div>
-                    <h4 class="white fw-600 fs-m3 mb-5">Data Leaks</h4>
-                    <div class="indigo-lightest fw-600 fs-m1 opacity-50">Check all your account data breaches easily. Search with email, username, domain and IP.</div>
-                 
-                </div>
-            </div>
-        </div>
-    </section>
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
 
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 
-
-    <!-- slider -->
-    
-
-    <!-- big text -->
-    <section class="p-10 md-py-10">
-        <div class="w-100pc md-w-70pc mx-auto py-10">
-            <h2 class="white fs-l2 md-fs-xl1 fw-900 lh-2">
-                Manage your computer users, space and security <span class="border-b bc-indigo bw-4"> easily.</span></h2>
-        </div>
-    </section>
-
-<!--register -->
-    
-
-    <!-- pricing -->
-    <section id="pricing">
-        <div class="p-10 flex flex-wrap">
-            <div class="w-100pc md-w-50pc">
-                <div class="p-5">
-                    <h4 class="white fw-800 fs-l3 mb-5">Donate</h4>
-                    <div class="indigo-lightest fw-600 fs-m1 opacity-50">Support the developer of this software buying him a coffee.</div>
-                    
-                </div>
-            </div>
-          
-            <div class="w-100pc md-w-25pc">
-                <div class="m-3 p-5 br-8 bg-indigo-lightest-10 overflow-hidden">
-                    <div class="p-3">
-                        <h3 class="indigo">Buy me a coffe</h3>
-                        <div class="white flex items-center">$<span class="fs-l5 lh-1">0+</span></div>
-                    </div>
-                    <div class="p-3 indigo-lightest fw-400 fs-s1 lh-5">
-                        <div>
-                            <i class="h-3 indigo" stroke-width="4" data-feather="check"></i>
-                            <span class="opacity-50"> Thanks to your donation I can continue improving this software and making a better application.</span></div>
-                      
-                           
-                    </div>
-                    <div class="p-3">
-                        <a href="https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=9SLZPM7L8ASN4"><button class="button full bg-indigo white  hover-opacity-100 hover-scale-up-1 ease-300">Donate</button></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-    </section>
-
-
-    <footer class="p-5 md-p-l5 bg-indigo-lightest-10">
-        <div class="flex flex-wrap">
-            <div class="md-w-25pc mb-10">
-                <div class="white opacity-70 fs-s2 mt-4 md-pr-10">
-                    <p>Copyright TitoHacks 2021</p>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://unpkg.com/feather-icons"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
-    <script src="assets/js/script.js"></script>
 </body>
 
 </html>
-
